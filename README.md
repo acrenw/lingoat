@@ -30,3 +30,5 @@ Become a lingo GOAT with LinGOAT 🐐
 - Russian
 - Arabic
 - Vietnamese
+
+**Extension Link**: Currently getting appproved by Chrome Web Store. Checkout the [onboarding page](https://acrenw.github.io/lingoat/src/onboarding/welcome.html) for now.
