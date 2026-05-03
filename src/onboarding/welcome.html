@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome to LinGOAT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap">
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  
+  <div class="hero">
+    <!-- decorative shapes -->
+    <div class="hero-shapes">
+      <img src="../assets/blue-rectangle.svg" class="deco deco-2" alt="">
+      <img src="../assets/green-spikes.svg" class="deco deco-5" alt="">
+      <img src="../assets/orange-circle-sb.svg" class="deco deco-6" alt="">
+      <img src="../assets/orange-square-sbs.svg" class="deco deco-7" alt="">
+      <img src="../assets/pink-circle.svg" class="deco deco-8" alt="">
+      <img src="../assets/pink-oval-sb.svg" class="deco deco-9" alt="">
+      <img src="../assets/pink-square-sb.svg" class="deco deco-10" alt="">
+      <img src="../assets/circles.svg" class="deco deco-3" alt="">
+      <img src="../assets/purple-circle-sb.svg" class="deco deco-11" alt="">
+      <img src="../assets/purple-scribble.svg" class="deco deco-12" alt="">
+      <img src="../assets/purple-square-sb.svg" class="deco deco-13" alt="">
+      <img src="../assets/red-circle.svg" class="deco deco-14" alt="">
+      <img src="../assets/waves.svg" class="deco deco-15" alt="">
+      <img src="../assets/yellow-oval-sb.svg" class="deco deco-16" alt="">
+      <img src="../assets/blue-circle.svg" class="deco deco-1" alt="">
+      <img src="../assets/yellow-sparkle.svg" class="deco deco-17" alt="">
+      <img src="../assets/yellow-square-sb.svg" class="deco deco-18" alt="">
+      <img src="../assets/blue-sparkle.svg" class="deco deco-19" alt="">
+    </div>
+
+    <div class="logo-text-big">LinGOAT</div>
+    <p class="tagline">Learn languages from doom scrolling and binging shows 🐐</p>
+  </div>
+
+  <div class="steps-section">
+
+    <!-- features -->
+    <div class="section-label">What you can do</div>
+    <div class="features">
+      <div class="feature-card">
+        <div class="icon">🖱️</div>
+        <h4>Click any word or phrase</h4>
+        <p>Tap any word or drag your mouse across any phrase in the subtitles for an instant dictionary lookup with examples</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📓</div>
+        <h4>Save vocabulary</h4>
+        <p>Hit "+ Add to Notes" on any word to save it. Your vocab list lives in the Notes panel</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">💬</div>
+        <h4>AI Tutor chat</h4>
+        <p>Ask about grammar, practice conversation, or get deeper explanations of anything</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🎤</div>
+        <h4>Voice practice</h4>
+        <p>Use your microphone to speak to the AI tutor and practice pronunciation and verbal conversation</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🔀</div>
+        <h4>Dual translations</h4>
+        <p>Switch between two native languages if you're bilingual</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">⭐</div>
+        <h4>Star key words</h4>
+        <p>Star important vocabulary to highlight it in your notes for review later</p>
+      </div>
+    </div>
+
+    <!-- how it works -->
+    <div class="section-label">How it works</div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-top"><div class="step-num">1</div><span class="step-icon"></span></div>
+        <h3>Set your languages</h3>
+        <p>Click the LinGOAT icon in your toolbar, pick the language you're learning and your native language.</p>
+      </div>
+      <div class="step">
+        <div class="step-top"><div class="step-num">2</div><span class="step-icon"></span></div>
+        <h3>Play any video</h3>
+        <p>Go to YouTube, Crunchyroll, or any site with video. If the site has subtitles, LinGOAT will <strong>automatically scrape and translate them</strong>, no extra steps needed!</p>
+      </div>
+      <div class="step">
+        <div class="step-top"><div class="step-num">3</div><span class="step-icon"></span></div>
+        <h3>No subtitles? Start Recording</h3>
+        <p>If the video has <strong>no subtitle service</strong>, click the LinGOAT icon and hit <strong>"Start Capture"</strong> to record the tab's audio and transcribe it with AI. <strong>Pause the video frequently</strong> to learn at your own pace.</p>
+      </div>
+      <div class="step">
+        <div class="step-top"><div class="step-num">4</div><span class="step-icon"></span></div>
+        <h3>Subtitles appear</h3>
+        <p>A floating subtitle bar shows the original text, readings (e.g. furigana), and your translation live. Click any word for a dictionary lookup!</p>
+      </div>
+    </div>
+
+    <!-- mic explanation -->
+    <div class="mic-box">
+      <div class="mic-icon">🎤</div>
+      <div>
+        <h3>About "Start Capture" and microphone permission</h3>
+        <p><strong>You only need "Start Capture" if the video doesn't already have subtitles.</strong> If the site provides subtitles (YouTube CC, Crunchyroll, Netflix, etc.), LinGOAT automatically scrapes and translates them, no recording needed!<br><br>
+        When you do use Start Capture, Chrome may show a permission prompt. <strong>This is normal.</strong> LinGOAT captures your <strong>tab audio only</strong> (not your physical microphone) and sends it to Groq's Whisper API for transcription. Your Groq API key is required for this feature.<br><br>
+        Sometimes, the found subtitles are already translated, in such instances, toggle <strong>"Use audio instead of page CC"</strong> in the popup menu to see the original spoken language.<br><br>
+        <strong>Caution:</strong> Translation is not 100% accurate. If it's not what you expect, ask your AI tutor for help!</p>
+      </div>
+    </div>
+
+    <!-- supported languages -->
+    <div class="section-label">Supported languages</div>
+    <div class="lang-grid">
+      <div class="lang-pill">Japanese</div>
+      <div class="lang-pill">Korean</div>
+      <div class="lang-pill">Chinese</div>
+      <div class="lang-pill">Spanish</div>
+      <div class="lang-pill">French</div>
+      <div class="lang-pill">German</div>
+      <div class="lang-pill">Italian</div>
+      <div class="lang-pill">Portuguese</div>
+      <div class="lang-pill">Russian</div>
+      <div class="lang-pill">Arabic</div>
+      <div class="lang-pill">Vietnamese</div>
+    </div>
+
+  </div>
+
+  <!-- troubleshooting -->
+  <div class="steps-section" style="padding-top: 0">
+    <div class="section-label">Troubleshooting</div>
+    <div class="trouble-list">
+
+      <details class="trouble-item">
+        <summary class="trouble-q">Subtitles aren't showing up</summary>
+        <div class="trouble-a">Reload the page. LinGOAT starts when the page loads, so a fresh load is the first fix to try. Then click <strong>▶ Show Subtitle Bar</strong> in the popup to bring it back if it was hidden. If it's still not working, check if your Groq API is inputted in the popup.</div>
+      </details>
+
+      <details class="trouble-item">
+        <summary class="trouble-q">The subtitle bar disappeared</summary>
+        <div class="trouble-a">Click the LinGOAT icon in your toolbar and hit <strong>▶ Show Subtitle Bar</strong>. It hides automatically when you close it and won't reappear until you ask for it.</div>
+      </details>
+
+      <details class="trouble-item">
+        <summary class="trouble-q">Translation is in the wrong language</summary>
+        <div class="trouble-a">Open the popup, check that <strong>Language you're learning</strong> and <strong>Primary native language</strong> are set correctly, then hit <strong>Save Settings</strong>. If the page CC is already in your native language, toggle <strong>Use audio instead of page CC</strong>.</div>
+      </details>
+
+      <details class="trouble-item">
+        <summary class="trouble-q">Audio capture says "listening" but never transcribes</summary>
+        <div class="trouble-a">Make sure your <strong>Groq API key</strong> is entered in the popup. You can get a free key at <strong>console.groq.com → API Keys</strong>. Also check you're on the right tab since <strong>Start Capture</strong> only captures the tab it was started on.</div>
+      </details>
+
+      <details class="trouble-item">
+        <summary class="trouble-q">Word clicks / AI Tutor aren't responding</summary>
+        <div class="trouble-a">Reload the page. If it keeps happening, try disabling and re-enabling the extension in <strong>chrome://extensions</strong>.</div>
+      </details>
+
+      <details class="trouble-item">
+        <summary class="trouble-q">Subtitles show on every page, even ones without video</summary>
+        <div class="trouble-a">Turn off <strong>Auto start on page load</strong> in the popup settings. The bar will only appear when you manually click <strong>▶ Show Subtitle Bar</strong>.</div>
+      </details>
+
+      <details class="trouble-item">
+        <summary class="trouble-q">Translations aren't accurate or feel cut off mid-sentence</summary>
+        <div class="trouble-a">Pause the video at the <strong>end of each sentence</strong> and wait a moment for the transcription and translation to finish before playing again. Groq Whisper processes audio in chunks, so if you keep playing while it's still working, the next chunk starts before the current sentence is complete, and the meaning can be misread. General flow: hear a line → pause → read + learn → play.</div>
+      </details>
+
+      <details class="trouble-item">
+        <summary class="trouble-q">Furigana / readings are missing or wrong</summary>
+        <div class="trouble-a">This is handled by the Groq AI, so if you're out of free-tier requests, readings fall back to basic mode with no furigana. Check your usage at <strong>console.groq.com</strong>.</div>
+      </details>
+
+    </div>
+  </div>
+
+  <footer>
+    LinGOAT · Learn languages from doom scrolling and binging shows
+  </footer>
+
+  <script src="welcome.js"></script>
+
+</body>
+</html>
