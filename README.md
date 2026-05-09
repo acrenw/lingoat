@@ -1,4 +1,4 @@
-# LinGOAT Chrome Extension
+# [LinGOAT](https://chromewebstore.google.com/detail/kioeehgelhbfegekjnhphjnadonbeimj?utm_source=item-share-cb) Chrome Extension
 
 Learn any language while doomscrolling.
 
@@ -31,4 +31,4 @@ Become a lingo GOAT with LinGOAT 🐐
 - Arabic
 - Vietnamese
 
-**Extension Link**: Currently getting appproved by Chrome Web Store. Checkout the [onboarding page](https://acrenw.github.io/lingoat/src/onboarding/welcome.html) for now.
+**Extension Link**: [https://chromewebstore.google.com/detail/kioeehgelhbfegekjnhphjnadonbeimj?utm_source=item-share-cb](https://chromewebstore.google.com/detail/kioeehgelhbfegekjnhphjnadonbeimj?utm_source=item-share-cb)
