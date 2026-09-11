@@ -671,7 +671,7 @@
   }
 
   function toggleSubtitleBar(forceShow) {
-    if (!subtitleBar) { injectSubtitleBar(); return; }
+    if (!subtitleBar) { injectSubtitleBar(); }
     if (forceShow || !subtitleVisible) {
       subtitleBar.style.display = "";
       subtitleVisible = true;
